@@ -98,7 +98,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: white; }
+      color: #dcadc0; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -129,9 +129,9 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ), url("../img/keep-coding.png");
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    ), url("../img/mount-timpanogos.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -142,13 +142,6 @@ header.masthead {
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      font-weight: bold;    
-      line-height: 22px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -161,14 +154,8 @@ header.masthead {
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
-      line-height: 40px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 75px;
+      font-size: 50px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
@@ -491,6 +478,10 @@ ul.social-buttons {
 
 .left {
     text-align:left;
+}
+
+.highlight {
+    color: #dcadc0;
 }
 .btn-primary {
   font-weight: 700;
