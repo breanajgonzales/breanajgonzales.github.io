@@ -489,6 +489,9 @@ ul.social-buttons {
 .text-primary {
   color: #46a47f !important; }
 
+.left {
+    text-align:left;
+}
 .btn-primary {
   font-weight: 700;
   color: white;
